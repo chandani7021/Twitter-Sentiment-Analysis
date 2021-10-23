@@ -32,10 +32,10 @@ class SentimentAnalysis:
 
         # authenticating
 
-        consumerKey = '3v7RNJJHZepham7iUHwXoVvpp'
-        consumerSecret = 'aIhdJ5M2d0RDGWnUxK3IdRD6VDFko7BRFfBHEHtE2TKiptHNFr'
-        accessToken = '1413149084454588428-uIyx5ibj95Dmhk2GpLlseWutsCWSo4'
-        accessTokenSecret = 'WYr2GPkc9SOozbScadLT2O7xmFnVuFRMqqQMrT6FYTeEK'
+        consumerKey = 'Enter the consumer key'
+        consumerSecret = 'Enter the secret key'
+        accessToken = 'Enter the access token '
+        accessTokenSecret = 'Enter the access token secret'
         auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
         api = tweepy.API(auth, wait_on_rate_limit=True)
